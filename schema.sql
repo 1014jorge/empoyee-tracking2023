@@ -18,10 +18,13 @@ CREATE TABLE role (
 );
 
 CREATE TABLE employee (
-    id NOT NULL INT,
+    id NOT NULL INT PRIMARY KEY,
     first_name VARCHAR(30) NOT NULL,
     last_name VARCHAR(30) NOT NULL,
     role_id NOT NULL INT,
     manager_id NOT NULL INT,
-    PRIMARY KEY (id)
-)
+    FOREIGN KEY (role_id)
+    REFERENCES role(id)
+    FOREIGN KEY (manager_id)
+    REFERENCES employee(id)
+);

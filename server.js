@@ -165,7 +165,7 @@ function addEmployee() {
     });
 }
 
-//Since we're using inquirer, we can pass the query into the method as an array
+// i used inquirer, we can pass the query into the method as an array
 
 function updateEmployee() {
   inquirer

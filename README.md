@@ -14,6 +14,8 @@
 employee_tracking_db is a content management system (CMS) interface that allows non-developers to easily view and interact with their staff's information. This is a command-line application that uses javascript, Inquirer, and a MySQL database. With employee_tracking_db, business owners can view and manage their company's departments, roles and employees. After invoking the application, User is presented with 7 options: View All Departments, View All Roles, View All Employees, Add a Department, Add a Role, Add an Employee, and Update an Employee Role.
 The purpose of this application is To allow non developers to add to an employee database
 
+Link to Video: https://drive.google.com/file/d/1xtcWfpGjrW8lAtX8A4jrjl_dXGzn8MTi/view
+
 ## Installation 
 I used MySQL, Javascript, Inquirer Node to create this application.
 
@@ -23,7 +25,7 @@ You must run npm i and install the dependencies and then use npm start to start 
 
 ## Usage
 
- This application should be used by anyone who wants a functional way to add or delete roles, employees or departments from a database
+ This application should be used by anyone who wants a functional way to add or delete roles, employees or departments from a company database.
 
 ## Credits
 
